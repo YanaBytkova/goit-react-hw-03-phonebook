@@ -3,10 +3,6 @@ import { Component } from 'react';
 import css from './ContactList.module.css';
 import { ContactItem } from 'components/ContactItem/ContactItem';
 export class ContactList extends Component {
-  state = {
-    contacts: [],
- 
-  }
 
   render() {
   
